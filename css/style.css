@@ -1,0 +1,493 @@
+@charset 'utf-8';
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html, body {
+	height: 100%;
+}
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+body {
+	font-size: 75%;
+	line-height: 2;
+	background: #fff;
+	font-family: 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', Osaka, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro';
+	color: #000;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+.color1 {
+	color: #990000;
+}
+.top_wrapper {
+	float: right;
+	width: 100%;
+	height: 100%;
+}
+.top_content {
+	margin-left: 200px;
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.main {
+	width: 100%;
+	float: left;
+	margin-right: -36px;
+}
+.content {
+	width: 100%;
+	float: right;
+	margin-left: -200px;
+}
+.content_inner {
+	margin: 150px 360px 50px 200px;
+}
+header {
+	position: fixed;
+	top: 0;
+	left: 200px;
+	right: 360px;
+	height: 150px;
+	background: #fff;
+	z-index: 1000;
+}
+h1 {
+	position: fixed;
+	top: 140px;
+	left: 0;
+	width: 200px;
+}
+h1 a:hover {
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+}
+.mobilelogo {
+	display: none;
+}
+header h2 {
+	font-size: 8rem;
+	font-family: 'Trade Winds', cursive;
+	text-align: center;
+	color: #000;
+}
+.free {
+	position: fixed;
+	top: 40px;
+	right: 40px;
+	font-size: 1.8rem;
+	line-height: 25px;
+
+}
+
+.top_section {
+	margin: 200px auto 0;
+	width: 50%;
+}
+.top_h2 img {
+	width: 100%;
+}
+.top_section_text {
+	margin: 50px auto 0;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+}
+.top_section_text h3 {
+	margin-bottom: 5px !important;
+	font-size: 3rem;
+	color: #fff;
+	text-align: center;
+	background: #000;
+	opacity: 0.9;
+	filter: alpha(opacity=9);
+	-moz-opacity: 0.9;
+}
+.top_section_text p {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: #fff;
+	text-align: left;
+	padding: 0 10px 0;
+}
+.top_section_text2 {
+	width: 200px;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	background: #000;
+	opacity: 0.9;
+	filter: alpha(opacity=9);
+	-moz-opacity: 0.9;
+}
+.sinkoukai {
+	width: 320px;
+	text-align: center;
+}
+article {
+	width: 100%;
+}
+article h3 {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 5px 0 3px;
+	border-radius: 5px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #ff0001), color-stop(1.00, #8f0202));
+	background: -webkit-linear-gradient(#ff0001, #8f0202);
+	background: -moz-linear-gradient(#ff0001, #8f0202);
+	background: -o-linear-gradient(#ff0001, #8f0202);
+	background: -ms-linear-gradient(#ff0001, #8f0202);
+	background: linear-gradient(#ff0001, #8f0202);
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	font-size: 3rem;
+}
+article h4 {
+	font-size: 2.5rem;
+	font-weight: normal;
+	margin: 20px 0;
+}
+article h5 {
+	background: rgba(0,0,0,0.2);
+	font-size: 2.5rem;
+	font-weight: normal;
+	margin: 20px 0;
+	text-align: center;
+}
+article li, p {
+	font-size: 1.5rem;
+}
+section {
+	margin: 0 auto;
+	width: 100%;
+}
+.clearfix {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+}
+.float_left {
+	width: 40%;
+	float: left;
+}
+.float_right {
+	width: 55%;
+	float: right;
+}
+.menu_img img {
+	width: 100%;
+	margin: 20px 0;
+}
+.float_right p {
+	background: rgba(0,0,0,0.2);
+	margin: 20px 0;
+	padding: 10px;
+	font-size: 2rem;
+}
+.menu_box {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.item {
+	font-size: 2rem;
+}
+.price {
+	float: right;
+	color: #000;
+	font-size: 2rem;
+}
+.company {
+	font-size: 2rem;
+}
+.company dl {
+	padding: 15px 0;
+	border-bottom: 1px solid #dcdcdc;
+}
+.company dl dt {
+	width: 30%;
+	float: left;
+}
+.company dl dd {
+	width: 68%;
+	float: right;
+}
+.gmap {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.gmap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* .calendar {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+  }
+  .calendar iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 750px;
+	height: 450px;
+} */
+.calendar {
+	width: 100%;
+	height: 100%;
+	-webkit-appearance: none;
+}
+.bottom_height {
+	height: 200px;
+}
+
+/*　Googleカレンダー埋め込み　*/
+.google-cal iframe {
+	width:100%;
+	max-width:800px;
+	height:400px;
+	}
+
+	@media (min-width: 750px) {
+
+	.google-cal iframe {
+	height:600px;
+	}
+
+	}
+.recipe {
+	font-size: 2rem;
+}
+.recipe_h4 {
+	font-size: 2.5rem;
+	font-weight: normal;
+	margin: 20px 0;
+	border-bottom: solid 5px #CC8F1B;
+}
+.recipe p {
+	background: rgba(0,0,0,0.2);
+	margin: 20px 0;
+	padding: 10px;
+	font-size: 2rem;
+}
+.recipe dl {
+	padding: 2px 0;
+	border-bottom: 1px solid #dcdcdc;
+}
+.recipe dl dt {
+	width: 40%;
+	float: left;
+}
+.recipe dl dd {
+	width: 55%;
+	float: right;
+}
+.right_content {
+	position: fixed;
+	top: 150px;
+	right: 20px;
+	width: 320px;
+	height: 100%;
+}
+.affi2 {
+	display: none;
+}
+.vertical-middle{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.copyright {
+	font-size: 1.2rem;
+	line-height: 15px;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+}
+.pagetop:hover {
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	color: #000;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+.top_wrapper {
+	padding-top: 50px;
+}
+.top_content {
+	margin-left: 0;
+}
+h1 {
+	position: fixed;
+	top: 5px;
+	left: 35px;
+	font-size: 2.5rem;
+	width: auto;
+	padding: 0;
+}
+.biglogo {
+	display: none;
+}
+.mobilelogo {
+	display: inline;
+}
+header {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	right: 0;
+	height: 50px;
+}
+header h2 {
+	height: 50px;
+	line-height: 50px;
+	font-size: 2.5rem;
+	margin-left: 20px;
+	text-align: left;
+	color: #000;
+}
+
+.free {
+	display: inline;
+	position: fixed;
+	top: 8px;
+	right: 5px;
+	z-index: 3000;
+}
+.mov_header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+	background: #fff;
+}
+header h2 {
+	font-size: 2.5rem;
+}
+.wrapper {
+	overflow: visible;
+}
+.content {
+	width: 100%;
+	float: none;
+	margin: 50px 0 20px;
+}
+.content_inner {
+	margin: 100px 0 0 0;
+}
+article h3 {
+	font-size: 1.5rem;
+}
+.top_section {
+	margin: 100px auto 0;
+	width: 80%;
+}
+section {
+	width: 90%;
+	margin-top: 30px;
+}
+article h3, .recipe_h4, article h5, .float_right p, .item, .price, .company, .recipe, .recipe p {
+	font-size: 1.5rem;
+}
+.float_left {
+	width: 100%;
+	float: none;
+}
+.float_right {
+	width: 100%;
+	float: none;
+}
+
+.company dl dt {
+	position: static;
+	width: 100%;
+	float: none;
+	padding: 0;
+}
+.company dl dd {
+	width: 100%;
+	float: none;
+}
+.calendar iframe {
+	width: 700px;
+	height: 500px;
+}
+
+.recipe p {
+	padding: 2px;
+}
+.right_content {
+	clear: both;
+	position: static;
+	margin: 20px auto;
+}
+.affi1 {
+	display: none;
+}
+.affi2 {
+	display: block;
+	margin: 10px auto 0;
+	width: 320px;
+	height: 50px;
+}
+
+.copyright {
+	width: 220px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+}
+}
+
