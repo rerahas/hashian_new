@@ -1,212 +1,88 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <title>焼きたてたこ焼きの店はしあん</title>
-  <meta name="Description" content="焼きたてたこ焼きの店はしあん" />
-  <meta name="Keywords" content="たこ焼き,仙台,焼きたて,ミニたい焼き,いか焼き,お好み焼き" />
-  <link rel="icon" href="https://hashian.com/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" type="img/x-icon" href="https://hashian.com/favicon.ico" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Aladin" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/vertical-responsive-menu.min.css" />
-  <link rel="stylesheet" href="css/vegas.min.css" />
-  <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-    <![endif]-->
-  <!--javascript設定-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://zeptojs.com/zepto.min.js"></script>
-  <script src="js/vegas.min.js"></script>
-  <script>
-    $(function () {
-      $(".top_content").vegas({
-        overlay: true,
-        transition: [
-          "fade",
-          "slideLeft",
-          "slideUp",
-          "slideDown",
-          "zoomIn",
-          "zoomOut",
-          "swirlLeft",
-          "blur",
-        ],
-        transitionDuration: 3000,
-        delay: 7000,
-        animation: "random",
-        animationDuration: 7000,
-        slides: [
-          {
-            src: "images/poster.jpg",
-          },
-          {
-            src: "images/top1.jpg",
-          },
-          {
-            src: "images/slide3.jpg",
-          },
-          {
-            src: "images/top2.jpg",
-          },
-          {
-            src: "images/top3.jpg",
-          },
-        ],
-      });
-    });
-  </script>
-  <script src="js/vertical-responsive-menu.min.js"></script>
-  <script src="js/scrolltopcontrol.js"></script>
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i["GoogleAnalyticsObject"] = r;
-      (i[r] =
-        i[r] ||
-        function () {
-          (i[r].q = i[r].q || []).push(arguments);
-        }),
-        (i[r].l = 1 * new Date());
-      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m);
-    })(
-      window,
-      document,
-      "script",
-      "//www.google-analytics.com/analytics.js",
-      "ga"
-    );
-
-    ga("create", "UA-26197800-4", "auto");
-    ga("send", "pageview");
-  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>焼きたてたこ焼きの店 はしあん - 仙台</title>
+  <meta name="description" content="仙台にある焼きたてたこ焼きの店「はしあん」。外はカリッ、中はとろーりの絶品たこ焼きをぜひご賞味ください。" />
+  <meta name="keywords" content="たこ焼き,仙台,はしあん,焼きたて,テイクアウト" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/modern-style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <noscript>
-    <p>
-      ※このページはJavaScriptを使用しています。JavaScript設定を有効にしてご覧ください。
-    </p>
-  </noscript>
-  <h1>
-    <a href="index.html" title="焼きたてたこ焼きの店はしあん"><span class="biglogo"><img src="images/logo.png"
-          alt="焼きたてたこ焼きの店はしあん" /></span><span class="mobilelogo"><img src="images/logo2.png"
-          alt="焼きたてたこ焼きの店はしあん" /></span></a>
-  </h1>
-  <button type="button" id="toggleMenu" class="toggle_menu">
-    <i class="fa fa-bars"></i>
-  </button>
-  <nav class="vertical_nav">
-    <ul id="js-menu" class="menu">
-      <li class="menu--item">
-        <a href="menu.html" class="menu--link" title="メニュー">
-          <span class="menu--label">メニュー</span>
-        </a>
-      </li>
-      <li class="menu--item">
-        <a href="access.html" class="menu--link" title="アクセス">
-          <span class="menu--label">アクセス</span>
-        </a>
-      </li>
-      <li class="menu--item">
-        <a href="recipe.html" class="menu--link" title="レシピ">
-          <span class="menu--label">レシピ</span>
-        </a>
-      </li>
-      <li class="menu--item"> <a href="calendar.html" class="menu--link" title="営業日カレンダー"> <span
-        class="menu--label">営業日カレンダー</span> </a> </li>
-
-      <li class="menu--item">
-        <a href="contact.html" class="menu--link" title="お問い合わせ">
-          <span class="menu--label">お問い合わせ</span>
-        </a>
-      </li>
-    </ul>
-    <button id="collapse_menu" class="collapse_menu"></button>
-  </nav>
-  <p class="copyright">© 2009 Orust Co., Ltd.</p>
-  <div class="top_wrapper">
-    <div class="top_content">
-      <article>
-        <section class="top_section">
-          <h2 class="top_h2">
-            <img src="images/top.png" alt="toppage img" />
-          </h2>
-        </section>
-
-        <!-- <section class="top_section_text">
-          <h3>臨時休業のお知らせ</h3>
-          <p>誠に勝手ながら本日（6月11日）<br>
-            休業させていただきます。</p>
-        </section> -->
-        <!-- <section class="top_section_text">
-          <h3>臨時休業のお知らせ</h3>
-          <p>誠に勝手ながら<br>
-            7月19日(火)～7月25日(月)<br>
-            休業させていただきます。</p>
-        </section> -->
-
-        <!-- <section class="top_section_text">
-          <h3>ＧＷ営業日のお知らせ</h3>
-          <p>4月27日(土)<br>5月30日(火)～5月4日(土)<br>
-            通常通り営業いたします。
-        </section> -->
-        <!-- <section class="top_section_text">
-            <h3>夏季休業のお知らせ</h3>
-            <p>
-              8月1日(日)～8月20日(金)<br />
-              まで夏季休業とさせていただきます。
-            </p>
-          </section> -->
-        <!-- <section class="top_section_text">
-            <h3>年末年始休業のお知らせ</h3>
-            <p>
-              平素は格別のご高配を賜り、厚く御礼申し上げます。<br>
-誠に勝手ながら、下記の期間を年末年始休業とさせていただきます。<br>
-              12月26日(日)～1月4日(火)
-            </p>
-          </section> -->
-        <!-- <section class="top_section_text">
-          <h3>営業再開のお知らせ</h3>
-          <p style="text-align: left;padding: 0 20px 0;">
-            新型コロナウイルスの感染拡大防止に備え臨時休業を実施しておりましたが2020年5月15日(金)より営業を再開いたします。<br>
-            【電話注文受付 0120-970-182】
-        </section> -->
-
-
-        <!-- <section class="top_section_text">
-          <h3>臨時休業のお知らせ</h3>
-            <p style="text-align: left;padding: 0 20px 0;">新型コロナウイルス感染拡大防止に伴い当面の間臨時休業させていただきます。<br>
-            再開日につきましては、感染状況や行政当局からの情報など今後の状況を鑑みながら慎重に判断し、改めてご案内いたします。
-        </section> -->
-
-
-        <!-- <section class="top_section_text">
-          <p style="text-align: center">お客様各位</p>
-          <p style="text-align: center">商品価格改定のお知らせ</p>
-          <p>拝啓 新型コロナウイルス感染症の感染拡大を受け、日々厳しい状況が続いているところではありますが、お客様におかれましては平素より「はしあん」をご利用いただきまして、誠にありがとうございます。<br>
-            この度、価格維持の為の努力を続けてまいりましたが、度重なる原材料の高騰が改善されず従来の価格を維持するのが困難となり、下記の金額に変更させていただきます。何卒ご理解いただきますようお願い申し上げます。<br>
-            【価格変更の内容】<br>
-            ・商品名「ミニタイ焼き」<br>
-            ・料金「６０円→７０円」<br>
-            ・変更日「２０２１年9月1日」</p>
-          <p style="text-align: right;padding-right: 20px">たこ焼き　はしあん</p>
-          <p style="text-align: right;padding-right: 20px">店主　　橋本智恵美</p>
-        </section> -->
-
-
-      </article>
-
-      <!-- / .topcontent -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">はしあん</a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html" class="active">ホーム</a></li>
+            <li><a href="menu.html">メニュー</a></li>
+            <li><a href="access.html">アクセス</a></li>
+            <li><a href="recipe.html">こだわりレシピ</a></li>
+            <li><a href="calendar.html">営業日</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+        <button class="mobile-nav-toggle" aria-controls="main-nav" aria-expanded="false">
+          <span class="sr-only">メニューを開閉</span>
+          <span class="hamburger"></span>
+        </button>
+      </div>
     </div>
-    <!-- / .toppagewrapper -->
-  </div>
-</body>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>焼きたてアツアツ！<br>心も体も温まるたこ焼き</h1>
+        <p>仙台のたこ焼き屋「はしあん」。こだわりの味を、ぜひご自宅で。</p>
+        <a href="menu.html" class="btn">メニューを見る</a>
+      </div>
+    </section>
+
+    <section class="features container">
+      <div class="feature-item">
+        <img src="images/feature1.svg" alt="素材のアイコン" class="feature-icon">
+        <h3>厳選素材</h3>
+        <p>新鮮なタコと、こだわりの生地。シンプルだからこそ、素材の味が光ります。</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/feature2.svg" alt="レシピのアイコン" class="feature-icon">
+        <h3>秘伝のレシピ</h3>
+        <p>外はカリッと、中はとろり。長年研究を重ねた、門外不出のレシピです。</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/feature3.svg" alt="ハートのアイコン" class="feature-icon">
+        <h3>心を込めて</h3>
+        <p>ひとつひとつ、心を込めて焼き上げています。アツアツをお召し上がりください。</p>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <h2>最新情報</h2>
+        <p>本日の営業情報や限定メニューは、こちらでご確認ください。</p>
+        <a href="calendar.html" class="btn btn-secondary">営業日カレンダー</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p>&copy; 2024 焼きたてたこ焼きの店 はしあん. All Rights Reserved.</p>
+        <div class="theme-switcher">
+          <label for="theme-toggle">ダークモード</label>
+          <input type="checkbox" id="theme-toggle">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>
