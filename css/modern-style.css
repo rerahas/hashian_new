@@ -631,3 +631,69 @@ section {
 .contact-info {
     text-align: center;
 }
+
+/* 既存のCSS... */
+
+/* ▼▼▼ 追加 ▼▼▼ */
+.fullscreen-bg-slider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* z-indexでコンテンツの背面に配置 */
+  z-index: -10;
+}
+
+.fullscreen-bg-slider .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* 最初は透明にしておく */
+  opacity: 0;
+  /* 25秒（画像5枚 x 5秒）で1周するアニメーションを設定 */
+  animation: bg-fade 25s infinite;
+}
+
+/* アニメーションの開始タイミングをずらす */
+.fullscreen-bg-slider .slide:nth-child(1) {
+  /* ご指定の画像パスに修正 */
+  background-image: url('../images/poster.jpg');
+  animation-delay: 0s;
+}
+.fullscreen-bg-slider .slide:nth-child(2) {
+  background-image: url('../images/top1.jpg');
+  animation-delay: 5s;
+}
+.fullscreen-bg-slider .slide:nth-child(3) {
+  background-image: url('../images/slide3.jpg');
+  animation-delay: 10s;
+}
+.fullscreen-bg-slider .slide:nth-child(4) {
+  background-image: url('../images/top2.jpg');
+  animation-delay: 15s;
+}
+.fullscreen-bg-slider .slide:nth-child(5) {
+  background-image: url('../images/top3.jpg');
+  animation-delay: 20s;
+}
+
+/* フェードイン・アウトのアニメーション定義 */
+@keyframes bg-fade {
+  0% { opacity: 0; }
+  /* 1秒かけてフェードイン (4% = 25s * 0.04) */
+  4% { opacity: 1; }
+  /* 3秒間表示 (16% - 4%) */
+  16% { opacity: 1; }
+  /* 1秒かけてフェードアウト (20% - 16%) */
+  20% { opacity: 0; }
+  /* 残りの時間は非表示 */
+  100% { opacity: 0; }
+}
+
+/* ▲▲▲ 追加 ▲▲▲ */

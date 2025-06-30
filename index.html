@@ -3,9 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>焼きたてたこ焼きの店 はしあん - 仙台</title>
-  <meta name="description" content="仙台にある焼きたてたこ焼きの店「はしあん」。外はカリッ、中はとろーりの絶品たこ焼きをぜひご賞味ください。" />
-  <meta name="keywords" content="たこ焼き,仙台,はしあん,焼きたて,テイクアウト" />
+  <title>焼きたてたこ焼きの店 はしあん - トップページ</title>
+  <meta name="description" content="焼きたてアツアツのたこ焼きをお届けする「はしあん」。こだわりの生地と新鮮なタコ、秘伝のソースが自慢です。">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/modern-style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
+
+<div class="fullscreen-bg-slider">
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+</div>
+<header class="site-header">
     <div class="container">
       <div class="header-inner">
         <a href="index.html" class="logo">はしあん</a>
@@ -37,43 +44,67 @@
   <main>
     <section class="hero">
       <div class="container">
-        <h1>焼きたてアツアツ！<br>心も体も温まるたこ焼き</h1>
-        <p>仙台のたこ焼き屋「はしあん」。こだわりの味を、ぜひご自宅で。</p>
+        <h2>焼きたてアツアツ、<br>心もおどるたこ焼き</h2>
+        <p>こだわりの生地と新鮮なタコ、秘伝のソースが自慢です。</p>
         <a href="menu.html" class="btn">メニューを見る</a>
       </div>
     </section>
 
-    <section class="features container">
-      <div class="feature-item">
-        <img src="images/feature1.svg" alt="素材のアイコン" class="feature-icon">
-        <h3>厳選素材</h3>
-        <p>新鮮なタコと、こだわりの生地。シンプルだからこそ、素材の味が光ります。</p>
-      </div>
-      <div class="feature-item">
-        <img src="images/feature2.svg" alt="レシピのアイコン" class="feature-icon">
-        <h3>秘伝のレシピ</h3>
-        <p>外はカリッと、中はとろり。長年研究を重ねた、門外不出のレシピです。</p>
-      </div>
-      <div class="feature-item">
-        <img src="images/feature3.svg" alt="ハートのアイコン" class="feature-icon">
-        <h3>心を込めて</h3>
-        <p>ひとつひとつ、心を込めて焼き上げています。アツアツをお召し上がりください。</p>
+    <section id="about" class="about-section">
+      <div class="container">
+        <h3>はしあんのこだわり</h3>
+        <p>
+          「はしあん」では、いつでも焼きたてを提供することを大切にしています。外はカリッと、中はとろりとした食感を生み出すために、生地の配合から焼き方まで、日々研究を重ねています。新鮮なタコのぷりぷりとした食感と、長年受け継がれる秘伝のソースが織りなすハーモニーを、ぜひご賞味ください。
+        </p>
       </div>
     </section>
 
-    <section class="cta-section">
+    <section class="menu-preview">
       <div class="container">
-        <h2>最新情報</h2>
-        <p>本日の営業情報や限定メニューは、こちらでご確認ください。</p>
-        <a href="calendar.html" class="btn btn-secondary">営業日カレンダー</a>
+        <h3>おすすめメニュー</h3>
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="images/top1.jpg" alt="ソースマヨたこ焼き">
+            <h4>ソースマヨたこ焼き</h4>
+            <p>秘伝のソースとマヨネーズの王道の味。</p>
+          </div>
+          <div class="menu-item">
+            <img src="images/top2.jpg" alt="ミニたい焼き">
+            <h4>ミニたい焼き</h4>
+            <p>ちっちゃくて、かわいい！ミニたい焼き。</p>
+          </div>
+          <div class="menu-item">
+            <img src="images/top3.jpg" alt="いか焼き">
+            <h4>いか焼き</h4>
+            <p>大阪名物いか焼き！もちもち生地にいかを練り込み、鉄板で香ばしく焼き上げ、特製ソースが絶妙！</p>
+          </div>
+        </div>
+        <a href="menu.html" class="btn">全メニューを見る</a>
       </div>
     </section>
+
+    <section id="access" class="access-section">
+        <div class="container">
+            <h3>アクセス</h3>
+            <p>
+                お気軽にお立ち寄りください。皆様のご来店を心よりお待ちしております。
+            </p>
+            <div class="access-details">
+                <p><strong>住所:</strong> 〒981-1105 </p>
+                <p><strong>営業時間:</strong> 11:00〜17:30 (定休日: 火曜日)</p>
+                <p><strong>電話番号:</strong> 022-741-0368</p>
+                <p><strong>定休日:</strong> ※定休日は<a href="calendar.html">営業日カレンダー</a>をご確認ください。</p>
+              </div>
+            <a href="access.html" class="btn">詳しい地図を見る</a>
+        </div>
+    </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container">
       <div class="footer-inner">
-        <p>&copy; 2024 焼きたてたこ焼きの店 はしあん. All Rights Reserved.</p>
+        <p>&copy; 2009 Orust Co., Ltd.</p>
         <div class="theme-switcher">
           <label for="theme-toggle">ダークモード</label>
           <input type="checkbox" id="theme-toggle">

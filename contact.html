@@ -43,8 +43,8 @@
     </section>
 
     <section class="contact-section container">
-              <iframe src="clipmail-utf/contact.html" height="800px" width="100%" style="border: none" scrolling="no">
-                この部分は iframe 対応のブラウザで見てください。 </iframe>
+<iframe id="contact-form-iframe" src="clipmail-utf/contact.html" width="100%" style="border: none;">
+                  この部分は iframe 対応のブラウザで見てください。 </iframe>
     </section>
   </main>
 
@@ -62,5 +62,16 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script>
+  window.addEventListener('message', function(event) {
+    // iframeの高さを、受信したメッセージ（コンテンツの高さ）に設定
+    var iframe = document.querySelector('iframe');
+    if (iframe) {
+      // 少し余裕を持たせるために20px追加
+      iframe.style.height = (event.data + 20) + 'px';
+    }
+  }, false);
+</script>
+</body>
 </body>
 </html>
