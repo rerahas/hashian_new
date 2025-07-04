@@ -230,7 +230,26 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+.about-section .container{
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒い背景 */
+  padding: 20px;
+  border-radius: 10px; /* 角を少し丸くします */
+  color: #fff; /* テキストの色を白にして読みやすくします */
+}
 
+.about-section h3 {
+  color: #fff; /* 見出しの色も白に設定 */
+}
+.access-section .container{
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒い背景 */
+  padding: 20px;
+  border-radius: 10px; /* 角を少し丸くします */
+  color: #fff; /* テキストの色を白にして読みやすくします */
+}
+
+.access-section h3 {
+  color: #fff; /* 見出しの色も白に設定 */
+}
 /* Buttons */
 .btn {
   display: inline-block;
